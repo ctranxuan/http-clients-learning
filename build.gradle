@@ -1,0 +1,21 @@
+group 'org.ws13.learning'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+configure(subprojects) {
+    apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile 'io.reactivex:rxjava:1.1.1'
+        testCompile 'junit:junit:4.11'
+
+    }
+}
+

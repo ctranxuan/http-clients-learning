@@ -1,0 +1,5 @@
+project(':http-rxnetty-learning') {
+    dependencies {
+        compile 'io.reactivex:rxnetty:0.4.15'
+    }
+}

@@ -1,0 +1,6 @@
+
+project(':http-asynchttpclient-learning') {
+    dependencies {
+        compile 'org.asynchttpclient:async-http-client:2.0.0-RC11'
+    }
+}
